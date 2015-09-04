@@ -1,0 +1,6 @@
+framework module SwiftAeson {
+  umbrella header "SwiftAeson-umbrella.h"
+
+  export *
+  module * { export * }
+}
