@@ -13,6 +13,7 @@
 		1241F507AB5176F68C03F3608FB5558B /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0186E637336551C6A248A4330B7B2E /* ExampleHooks.swift */; };
 		13DF7EA9F829F626C04321A3E3DA682F /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEA659F1031FAA94D07BCA20722638 /* World.swift */; };
 		15BC349C62E5F7936C1E35CB58A3AC5A /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8617D930E4D359563D2E72A77A10FBBD /* QCKDSL.m */; };
+		1A70C98C1B99CC5100ACB84B /* SwiftAeson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A70C98B1B99CC5100ACB84B /* SwiftAeson.swift */; settings = {ASSET_TAGS = (); }; };
 		1F86B2AE4791A61CC9B6247BDEEF953F /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 112258B1AE8BC0997AF2E8D758BDC6E5 /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FCF2C642BCD0F0705B64A5FA760ABB6 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7B4FC2490489A2C8C7976B2A08F28B /* DSL.swift */; };
 		2003CB85F77E64DD6FC127B9AE54C4AE /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131B630EC5A2B45ECE65205C613EA04 /* ExampleMetadata.swift */; };
@@ -36,7 +37,6 @@
 		498E5632213C9D35571641364920466F /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6243C56DFE71A7A488651FC563E450F3 /* BeLogical.swift */; };
 		54F903796F7F91CB3A4ED3467E5518CC /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A456ECABD8A5D258E1AFFC14A1E5E /* BeginWith.swift */; };
 		55B7ECE2552A8468A9371C7DDFC93AB5 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4C3E8FB507F6035055453108035DB9 /* FailureMessage.swift */; };
-		5AEB970CD43B1FE155395A053E643869 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83633003F52F864E38D4B448F631F710 /* ReplaceMe.swift */; };
 		5BD86221731E4FD1D279E801E8A787CD /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 405898307CA2C3AF8BCFD929E40EB6E1 /* Quick-dummy.m */; };
 		5BF280BE79522BD1F3851642CD6D1019 /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9506C432DA1BBA6A494083E916A6D2DB /* Equal.swift */; };
 		5CD3802BF38C69F64865053477BE64EF /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA156C29A2AA4150BEB9CC99515DD60D /* SourceLocation.swift */; };
@@ -133,6 +133,7 @@
 		14885271B9BFFF2B332408B63FEADB55 /* SwiftAeson-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftAeson-Private.xcconfig"; sourceTree = "<group>"; };
 		1690B3224E30BFFBC61D4C825D771794 /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
 		1912240AC958A733A37544D9B7C09708 /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
+		1A70C98B1B99CC5100ACB84B /* SwiftAeson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAeson.swift; sourceTree = "<group>"; };
 		1C82A9CFA6D45BE24CC231E32CA5D173 /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Quick/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
 		1D472EB2311A941378011D73AE4B0D92 /* Nimble-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Nimble-Private.xcconfig"; sourceTree = "<group>"; };
 		21284B35EEEBA0106D30D27C2AFCAD45 /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Quick/Callsite.swift; sourceTree = "<group>"; };
@@ -169,7 +170,6 @@
 		7D1769CEE5C1AFC433185568804B24CB /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Nimble/Expression.swift; sourceTree = "<group>"; };
 		80A03A6A8CD671A6EE8FCA1073CC7DA2 /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Nimble/objc/NMBExceptionCapture.m; sourceTree = "<group>"; };
 		82CE0DE2131921DE47C961EC04FDF93C /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83633003F52F864E38D4B448F631F710 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		848296B319A1D9F207CAD5EA29E9BE1C /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
 		8617D930E4D359563D2E72A77A10FBBD /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Quick/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		862C41D2F151B7579AEACE74E77935A3 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -499,7 +499,7 @@
 		FE874959B143F5795F8D4A88CDEC9F95 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				83633003F52F864E38D4B448F631F710 /* ReplaceMe.swift */,
+				1A70C98B1B99CC5100ACB84B /* SwiftAeson.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -771,6 +771,7 @@
 				CC2D77C4B0BBC874998B03C1DE2BA8F8 /* Poll.swift in Sources */,
 				43F65EA9FCC2F93045FCC557D1A48409 /* RaisesException.swift in Sources */,
 				5CD3802BF38C69F64865053477BE64EF /* SourceLocation.swift in Sources */,
+				1A70C98C1B99CC5100ACB84B /* SwiftAeson.swift in Sources */,
 				85708AD3B09F3B6138789699D4E0DC69 /* Stringers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -779,7 +780,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AEB970CD43B1FE155395A053E643869 /* ReplaceMe.swift in Sources */,
 				6187A70D77576AE0C3E379F76A4C2681 /* SwiftAeson-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
