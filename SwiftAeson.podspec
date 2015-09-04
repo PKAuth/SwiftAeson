@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "SwiftAeson"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SwiftAeson."
+  s.summary          = "A JSON serialization library for Swift that mimics Haskell's Aeson."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+											 SwiftAeson is a JSON serialization library for Swift that mimics Haskell's [Aeson](https://hackage.haskell.org/package/aeson). 
+											 It provides a typesafe wrapper around `NSJSONSerialization` and can be utilized for any data type including classes, enums, and structs. 
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SwiftAeson"
+  s.homepage         = "https://github.com/PKAuth/SwiftAeson"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "James Parker" => "dev@jamesparker.me" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SwiftAeson.git", :tag => s.version.to_s }
+  s.author           = { "James Parker" => "jp@pkauth.com" }
+  s.source           = { :git => "https://github.com/PKAuth/SwiftAeson.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'

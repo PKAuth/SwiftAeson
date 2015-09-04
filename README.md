@@ -22,7 +22,7 @@ pod "SwiftAeson"
 
 ## Author
 
-James Parker, dev@jamesparker.me
+James Parker, jp@pkauth.com
 
 ## License
 
