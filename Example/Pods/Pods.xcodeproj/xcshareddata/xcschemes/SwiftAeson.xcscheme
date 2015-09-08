@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "863CA5A382373D24215EC44C"
+               BlueprintIdentifier = "D7F6A82B7D6217276B1CD9B0"
                BuildableName = "SwiftAeson.framework"
                BlueprintName = "SwiftAeson"
                ReferencedContainer = "container:Pods.xcodeproj">

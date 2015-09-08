@@ -1,7 +1,7 @@
 PODS:
   - Nimble (1.0.0)
   - Quick (0.3.1)
-  - SwiftAeson (0.1.0)
+  - SwiftAeson (0.1.1)
 
 DEPENDENCIES:
   - Nimble
@@ -15,6 +15,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Nimble: 8bee528e5fcc403653076545db562d2b5db7bb87
   Quick: 824572d3d198d51e52cf4aa722cebf7e59952a35
-  SwiftAeson: 1e29f4f1eebab6e6ec57ece79ba1da4cf5f1cb60
+  SwiftAeson: d120e6f3897c5a9b09b18c8f085a4d24dcd26488
 
 COCOAPODS: 0.38.2

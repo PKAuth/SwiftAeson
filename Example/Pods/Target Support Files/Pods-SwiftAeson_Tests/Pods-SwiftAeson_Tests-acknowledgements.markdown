@@ -413,7 +413,7 @@ Apache License
 
 ## SwiftAeson
 
-Copyright (c) 2015 James Parker <dev@jamesparker.me>
+Copyright (c) 2015 PKAuth, LLC <pkauth.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
