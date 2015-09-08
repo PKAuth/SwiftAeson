@@ -1,6 +1,6 @@
 # SwiftAeson
 
-[![CI Status](http://img.shields.io/travis/James Parker/SwiftAeson.svg?style=flat)](https://travis-ci.org/James Parker/SwiftAeson)
+[![CI Status](http://img.shields.io/travis/James Parker/SwiftAeson.svg?style=flat)](https://travis-ci.org/PKAuth/SwiftAeson)
 [![Version](https://img.shields.io/cocoapods/v/SwiftAeson.svg?style=flat)](http://cocoapods.org/pods/SwiftAeson)
 [![License](https://img.shields.io/cocoapods/l/SwiftAeson.svg?style=flat)](http://cocoapods.org/pods/SwiftAeson)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftAeson.svg?style=flat)](http://cocoapods.org/pods/SwiftAeson)
