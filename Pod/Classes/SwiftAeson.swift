@@ -156,12 +156,12 @@ class Aeson {
                 
                 switch value {
                 case JValue.JObject( let o):
-                    return (o %! "key").bind({ (key : K) in
-                        (o %! "value").bind({ (val : V) in
+                    if let key : K = o %! "key" {
+                        if let val : V = (o %! "value") {
                             res[key] = val
                             return res
-                        })
-                    })
+                        }
+                    }
                 default:
                     return nil
                 }
@@ -195,10 +195,10 @@ class Aeson {
                     return nil
                 }
                 
-                return E.fromJSON( val).bind({ e in
+                if let e = E.fromJSON( val) {
                     res.append( e)
                     return res
-                })
+                }
             })
             
             return res
