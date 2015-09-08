@@ -89,7 +89,7 @@ let serialized = Aeson.encode( original)
 let encoded = NSString(data: serialized!, encoding: NSUTF8StringEncoding)
 print(encoded!)
 
-let deserialized : Test? = Aeson.decode( serialized!)// Aeson.decode( test!)
+let deserialized : Test? = Aeson.decode( serialized!)
 print(deserialized!)
 
 original == deserialized!
