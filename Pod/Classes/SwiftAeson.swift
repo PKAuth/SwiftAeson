@@ -162,6 +162,8 @@ class Aeson {
                             return res
                         }
                     }
+                    
+                    return nil
                 default:
                     return nil
                 }
@@ -199,6 +201,8 @@ class Aeson {
                     res.append( e)
                     return res
                 }
+                
+                return nil
             })
             
             return res
